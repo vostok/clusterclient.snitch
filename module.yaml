@@ -1,0 +1,17 @@
+notests *default:
+  build:
+    target: Vostok.ClusterClient.Snitch.sln
+    configuration: NoTests
+    tool:
+      name: dotnet
+
+  install:
+    - Vostok.ClusterClient.Snitch/bin/Release/netstandard2.0/Vostok.ClusterClient.Snitch.dll
+
+  deps:
+    - vostok.devtools
+
+full-build > notests:
+  build:
+    target: Vostok.ClusterClient.Snitch.sln
+    configuration: Release
