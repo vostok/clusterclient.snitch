@@ -1,6 +1,6 @@
 # Vostok.ClusterClient.Snitch
 
-[![Build status](https://ci.appveyor.com/api/projects/status/github/vostok/clusterclient.snitch?svg=true&branch=master)](https://ci.appveyor.com/project/vostok/clusterclient.snitch/branch/master)
+[![Build & Test & Publish](https://github.com/vostok/clusterclient.snitch/actions/workflows/ci.yml/badge.svg)](https://github.com/vostok/clusterclient.snitch/actions/workflows/ci.yml)
 [![NuGet](https://img.shields.io/nuget/v/Vostok.ClusterClient.Snitch.svg)](https://www.nuget.org/packages/Vostok.ClusterClient.Snitch)
 
 An implementation of replica weight modifier based on externally computed weights stored in Service Discovery registry.
