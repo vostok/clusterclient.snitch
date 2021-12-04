@@ -17,6 +17,10 @@ notests *default:
     - vostok.commons.collections/src
 
 full-build > notests:
+  deps:
+    - -vostok.devtools
+    - vostok.devtools@with-net6.0
+
   build:
     target: Vostok.ClusterClient.Snitch.sln
     configuration: Release
