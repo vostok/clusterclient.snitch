@@ -1,0 +1,6 @@
+static Vostok.Clusterclient.Snitch.IWeighedReplicaOrderingBuilderExtensions.SetupSnitchWeightModifier(this Vostok.Clusterclient.Core.Ordering.Weighed.IWeighedReplicaOrderingBuilder self, Vostok.ServiceDiscovery.Abstractions.IServiceLocator serviceLocator, string environment, string application) -> void
+Vostok.Clusterclient.Snitch.IWeighedReplicaOrderingBuilderExtensions
+Vostok.Clusterclient.Snitch.SnitchWeightModifier
+Vostok.Clusterclient.Snitch.SnitchWeightModifier.Learn(Vostok.Clusterclient.Core.Model.ReplicaResult result, Vostok.Clusterclient.Core.Ordering.Storage.IReplicaStorageProvider storageProvider) -> void
+Vostok.Clusterclient.Snitch.SnitchWeightModifier.Modify(System.Uri replica, System.Collections.Generic.IList<System.Uri> allReplicas, Vostok.Clusterclient.Core.Ordering.Storage.IReplicaStorageProvider storageProvider, Vostok.Clusterclient.Core.Model.Request request, Vostok.Clusterclient.Core.Model.RequestParameters parameters, ref double weight) -> void
+Vostok.Clusterclient.Snitch.SnitchWeightModifier.SnitchWeightModifier(Vostok.ServiceDiscovery.Abstractions.IServiceLocator serviceLocator, string environment, string application, Vostok.Logging.Abstractions.ILog log) -> void
